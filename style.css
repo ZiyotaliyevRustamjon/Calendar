@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./Images/BG.jpg);
+    background-size: cover;
+}
+.wrapper{
+    width: 200px;
+    position: relative;
+    background-color: #635985;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+.wrapper #monthName{
+    position: relative;
+    padding: 5px 10px;
+    background: #393053;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+}
+.wrapper #dayName{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #999;
+}
+.wrapper #dayNumber{
+    height: 1rem;
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+}
+.wrapper #year{
+    margin-top: 90px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #999;
+}
